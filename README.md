@@ -6,7 +6,7 @@ Python script to rename all the file adding timestamp as prefix. Useful if you h
 
 ### Instructions
 
-Copy the file inside the folder and run it 
+Copy the file inside the folder (or edit the script path) and run it 
 ```sh
 python rename.py
 ```
