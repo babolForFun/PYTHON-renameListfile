@@ -13,7 +13,7 @@ def rename_files(path):
         	pass
         else:
 	        new_file_name = str(datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d')) + file_name
-	        print(file_name + " ---->  " + new_file_name)
+	        print(file_name + " ->  " + new_file_name)
 	        os.rename(os.path.join(path, file_name), os.path.join(path, new_file_name))
 
 rename_files('./')
