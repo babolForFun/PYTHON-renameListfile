@@ -10,4 +10,3 @@ Copy the file inside the folder (or edit the script path) and run it
 ```sh
 python rename.py
 ```
-
